@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Interesting Photos</string>
+    <string name="photo_transition_name">photoTransition</string>
+    <string name="flickr_photo">flickr photo</string>
+</resources>
