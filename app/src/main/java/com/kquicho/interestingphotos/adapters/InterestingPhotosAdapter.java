@@ -59,7 +59,6 @@ public class InterestingPhotosAdapter extends RecyclerView.Adapter<InterestingPh
     public void onBindViewHolder(final ViewHolder holder, int position) {
         FlickrPhoto flickrPhoto = mFlickrPhotos.get(position);
 
-        Log.d("test", "test");
         holder.progressBar.setVisibility(View.VISIBLE);
         final String imageUri = buildFlickrPhotoUri(flickrPhoto);
         Picasso.with(mContext)
